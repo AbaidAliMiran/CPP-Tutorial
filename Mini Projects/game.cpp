@@ -2,12 +2,12 @@
 #include <cstdlib>
 #include <ctime>
 using namespace std;
-class RockPaperScissors{
+class SnakeWaterGun{
 	private:
 		char comp, you;
 		int result;
 	public:
-		RockPaperScissors(){
+		SnakeWaterGun(){
 			srand(time(0));
     		int randNo = rand() % 3 + 1;
 
@@ -66,10 +66,10 @@ class RockPaperScissors{
 
 
 int main() {
-	RockPaperScissors rps;
+	SnakeWaterGun swg;
     cout << "Comp Turn: Snake(s), Water(w) or Gun(g)?" << endl;
-    rps.user_choice();
-    rps.printResult();
+    swg.user_choice();
+    swg.printResult();
     return 0;
 }
 
