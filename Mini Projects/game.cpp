@@ -58,8 +58,8 @@ class RockPaperScissors{
        		} 
         } else {
         	cout << "Wrong Choice!" << endl;
+        }
     }
-}
 
 		
 };
